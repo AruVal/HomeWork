@@ -1,0 +1,58 @@
+@charset "UTF-8";
+body {
+    display: block;
+    background: #E5E5E5;
+}
+
+#box1 {
+    position: relative;
+    height: 40px;
+    width: 1440px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background: #ADC9A6;
+}
+#box1 .star {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    left: 543px;
+    top: 8px;
+    border-radius: 0px;
+}
+.star  {
+    height: 24px;
+    width: 327px;
+    left: 571px;
+    top: 8px;
+    border-radius: nullpx;
+}
+.text p {
+    position: absolute;
+    width: 327px;
+    height: 24px;
+    left: calc(50% - 327px/2 + 14.5px);
+    top: calc(50% - 24px);
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 24px;
+/* identical to box height, or 218% */
+    text-align: center;
+    letter-spacing: 0.24px;
+    color: #153C3C;
+}
+#box2 {
+    position: absolute;
+    Width: 1440px;
+    height: 100px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+
+    background: #153C3C;
+    border-radius: 0px;
+}
