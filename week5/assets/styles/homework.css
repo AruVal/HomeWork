@@ -15,11 +15,7 @@ main {
     width: 65vw;
     display: flex;
     flex-direction: column;
-    justify-content: ;
     align-items: center;
-}
-.text__wrap {
-
 }
 .block__1 {
     display: flex;
